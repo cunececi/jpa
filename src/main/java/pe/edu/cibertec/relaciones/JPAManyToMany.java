@@ -9,7 +9,7 @@ import pe.edu.cibertec.entity.Libro;
 public class JPAManyToMany {
 
     public static void main(String[] args) {
-
+        // Hola
         // referenciar al EMF y EM
         EntityManagerFactory emf = Persistence.createEntityManagerFactory( "biblioteca");
         EntityManager em = emf.createEntityManager();
